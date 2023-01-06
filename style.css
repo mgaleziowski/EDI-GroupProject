@@ -1,16 +1,19 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(0deg, yellow,coral);
+    background: linear-gradient(0deg, pink,coral);
 }
-table, td, th {
-    border: 1px solid;
+th{
     background-color: lightskyblue;
+}
+
+td{
+   background-color: white; 
 }
 
 table{
     width: 100%;
     border-collapse: collapse;
-    
+    border: 5px solid;
     
 }
 #title{
