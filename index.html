@@ -139,7 +139,6 @@
                 <td>${data[index].address}</td>
                 <td>${data[index].country}</td>
                 <td>${data[index].date_of_shipment}</td>
-
             </tr>`
         })
         output+=`</table>`;
@@ -212,7 +211,7 @@ function drawChart2() {
 function drawChart3(){
     var data=new google.visualization.DataTable();
     data.addColumn('string','Shipments by Country');
-    data.addColumn('number','shipments');
+    data.addColumn('number','Shipments');
     data.addRows([
     ['Poland',pl],
     ['Germany',gr],
@@ -222,10 +221,12 @@ function drawChart3(){
     ['France',fr]
     ]);
     var options={
+        legend: {position: 'bottom'},
         "title":"Shipments by Country",
         "width":400,
         "height":300,
-        "backgroundColor": 'pink'
+        "backgroundColor": 'pink',
+        
     }
     var chart=new google.visualization.BarChart(document.getElementById("chart_div3"));
     chart.draw(data,options);
