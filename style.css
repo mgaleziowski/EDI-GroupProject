@@ -14,6 +14,7 @@ table{
     width: 100%;
     border-collapse: collapse;
     border: 5px solid;
+    text-align: left;
     
 }
 #title{
