@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(0deg, pink,coral);
+    background: linear-gradient(0deg, yellow,coral);
 }
 th{
     background-color: lightskyblue;
@@ -12,6 +12,9 @@ tbody tr{
     background-color: white; 
     border-bottom: 1px solid black;
  }
+tbody td{
+    border-right: 1px solid black;
+}
 table{
     width: 100%;
     border-collapse: collapse;
