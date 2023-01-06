@@ -5,11 +5,13 @@ body{
 th{
     background-color: lightskyblue;
 }
-
-td{
-   background-color: white; 
+tbody tr:nth-of-type(even){
+    background-color: lightgrey;
 }
-
+tbody tr{
+    background-color: white; 
+    border-bottom: 1px solid black;
+ }
 table{
     width: 100%;
     border-collapse: collapse;
