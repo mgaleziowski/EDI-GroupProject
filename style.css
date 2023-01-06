@@ -18,7 +18,7 @@ table{
 }
 #userTable{
     height:auto;
-    width: 49%;
+    width: auto;
     text-align: center;  
     float:left;
     min-height: 1800px;
