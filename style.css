@@ -22,6 +22,10 @@ table{
     text-align: left;
     
 }
+#chart_div,#chart_div2,#chart_div3{
+    background-color: pink;
+    border: 1px solid black;
+}
 #title{
     text-align: center;
 }
